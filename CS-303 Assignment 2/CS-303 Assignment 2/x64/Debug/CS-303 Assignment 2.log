@@ -1,0 +1,29 @@
+﻿  main.cpp
+C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\CS-303 Assignment 2\Namespace.h(163,11): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\CS-303 Assignment 2\Namespace.h(163,11):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\CS-303 Assignment 2\main.cpp(69,15):
+  	see reference to class template instantiation 'Vstack<int>' being compiled
+  	C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\CS-303 Assignment 2\Stack.h(10,24):
+  	see reference to class template instantiation 'AT::vector<Item_type>' being compiled
+          with
+          [
+              Item_type=int
+          ]
+  	C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\CS-303 Assignment 2\Namespace.h(162,7):
+  	while compiling class template member function 'int AT::vector<Item_type>::size(void)'
+          with
+          [
+              Item_type=int
+          ]
+  		C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\CS-303 Assignment 2\Stack.h(52,2):
+  		see the first reference to 'AT::vector<Item_type>::size' in 'Vstack<int>::average'
+          with
+          [
+              Item_type=int
+          ]
+  		C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\CS-303 Assignment 2\main.cpp(93,72):
+  		see the first reference to 'Vstack<int>::average' in 'main'
+  
+  CS-303 Assignment 2.vcxproj -> C:\Users\lalex\source\repos\week-13-AlejandroT428\CS-303 Assignment 2\x64\Debug\CS-303 Assignment 2.exe
